@@ -188,7 +188,7 @@ toggles:
       homepage_label: index
       use_as_homepage: false
       add_links_in_graph_tree: true
-      tags: ["地名", "词"]
+      tags: ["地名", "词", "字"]
       match_on_inline_tags: false
       styling:
         include_folder_in_link: false
