@@ -1,14 +1,16 @@
 #!/bin/sh
 
-obsidianhtml convert -i config.yaml
-
 GIT=`which git`
 REPO_DIR=../hoisanwa.github.io
-cd ${REPO_DIR}
+${GIT} rm -rf ../hoisanwa.github.io/*
 
-mv html/* ./
-rm -rf html/
+# obsidianhtml convert -i config.yaml
 
-${GIT} add .
-${GIT} commit -m "update"
-${GIT} push -f origin main
+# cd ${REPO_DIR}
+
+# mv html/* ./
+# rm -rf html/
+
+# ${GIT} add .
+# ${GIT} commit -m "update"
+# ${GIT} push -f origin main
