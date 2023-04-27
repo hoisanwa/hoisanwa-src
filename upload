@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# update Home.md in hoisanwa-src
+python update.py
+
 # update hoisanwa-src
 git add .
 git commit -m "update"
