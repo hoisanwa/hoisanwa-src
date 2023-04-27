@@ -241,4 +241,4 @@ toggles:
     post_processing: []
 md_folder_path_str: ./output/md
 md_entrypoint_path_str: ./output/md/index.md
-html_output_folder_path_str: ../hoisanwa.github.io/html
+html_output_folder_path_str: ../hoisanwa.github.io/
