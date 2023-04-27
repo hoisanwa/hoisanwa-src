@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# update hoisanwa-src
+git add .
+git commit -m "update"
+git push -f origin main
+
+# update hoisanwa.github.io
 obsidianhtml convert -i config.yaml
 
 REPO_DIR=../hoisanwa.github.io
@@ -9,3 +15,4 @@ cp -r ./html/* .
 rm -rf ./html
 git add .
 git commit -m "update"
+git push -f origin main
