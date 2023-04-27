@@ -1,10 +1,14 @@
 #!/bin/sh
 
+obsidianhtml convert -i config.yaml
+
 GIT=`which git`
 REPO_DIR=../hoisanwa.github.io
 cd ${REPO_DIR}
-${GIT} init
+
+mv html/* ./
+rm -rf html/
+
 ${GIT} add .
 ${GIT} commit -m "update"
-${GIT} remote add origin git@github.com:hoisanwa/hoisanwa.github.io.git
 ${GIT} push -f origin main

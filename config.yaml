@@ -47,7 +47,7 @@ audio_format_suffixes:
 embeddable_file_suffixes:
   - pdf
 md_source_host_urls: []
-site_name: Hoisanwa Dictionary
+site_name: "台山话 | Hoisanwa"
 html_url_prefix: ''
 html_template_path_str: ''
 html_custom_inclusions: []
@@ -242,4 +242,4 @@ toggles:
     post_processing: []
 md_folder_path_str: ./output/md
 md_entrypoint_path_str: ./output/md/index.md
-html_output_folder_path_str: ../hoisanwa.github.io
+html_output_folder_path_str: ../hoisanwa.github.io/html
