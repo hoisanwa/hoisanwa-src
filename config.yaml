@@ -92,7 +92,7 @@ toggles:
     math_latex:
       enabled: true
     backlinks:
-      enabled: true
+      enabled: false
     embedded_note_titles:
       enabled: true
       hide_on_h1: true
