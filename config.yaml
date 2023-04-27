@@ -1,5 +1,5 @@
-obsidian_folder_path_str: /Users/ziweih/Documents/hoisanwa-src/Hoisanwa
-obsidian_entrypoint_path_str: /Users/ziweih/Documents/hoisanwa-src/Hoisanwa/index.md
+obsidian_folder_path_str: ./Hoisanwa
+obsidian_entrypoint_path_str: ./Hoisanwa/index.md
 log_output_folder_path_str: output/log
 included_folders: []
 exclude_glob:
@@ -71,7 +71,7 @@ toggles:
   relative_path_html: false
   external_blank: false
   img_alt_text_use_figure: true
-  preserve_inline_tags: true
+  preserve_inline_tags: false
   features:
     styling:
       layout: documentation
@@ -200,13 +200,13 @@ toggles:
         - not_created.html
       homepage_label: index
     create_index_from_tags:
-      enabled: false
+      enabled: true
       verbose: false
       rel_output_path: obs.html/tag_index.md
       homepage_label: index
       use_as_homepage: false
       add_links_in_graph_tree: true
-      tags: []
+      tags: ["地名", "词"]
       match_on_inline_tags: false
       styling:
         include_folder_in_link: false
@@ -240,6 +240,6 @@ toggles:
           strip_sub_divs:
             - .toc
     post_processing: []
-md_folder_path_str: /private/var/folders/2g/cw502gdd0hj9q05c6n34nkvr0000gn/T/obshtml_8kiyn5o_/md
-md_entrypoint_path_str: /private/var/folders/2g/cw502gdd0hj9q05c6n34nkvr0000gn/T/obshtml_8kiyn5o_/md/index.md
+md_folder_path_str: ./output/md
+md_entrypoint_path_str: ./output/md/index.md
 html_output_folder_path_str: ../hoisanwa.github.io

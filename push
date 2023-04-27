@@ -1,0 +1,10 @@
+#!/bin/sh
+
+GIT=`which git`
+REPO_DIR=../hoisanwa.github.io
+cd ${REPO_DIR}
+${GIT} init
+${GIT} add .
+${GIT} commit -m "update"
+${GIT} remote add origin git@github.com:hoisanwa/hoisanwa.github.io.git
+${GIT} push -f origin main
