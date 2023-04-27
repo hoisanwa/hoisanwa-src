@@ -1,0 +1,11 @@
+#!/bin/sh
+
+obsidianhtml convert -i config.yaml
+
+REPO_DIR=../hoisanwa.github.io
+cd ${REPO_DIR}
+git rm -rf .
+cp -r ./html/* .
+rm -rf ./html
+git add .
+git commit -m "update"

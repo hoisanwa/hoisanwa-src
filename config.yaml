@@ -130,7 +130,7 @@ toggles:
       coalesce_force: '-30'
       show_inclusions_in_graph: true
     rss:
-      enabled: false
+      enabled: true
       host_root: https://hoisanwa.github.io
       styling:
         show_icon: true
