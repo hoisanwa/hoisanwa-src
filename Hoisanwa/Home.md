@@ -2,7 +2,7 @@
 
 ## 专题 / Topics
 
-- [[台山话音系 Hoisanwa Phonology]]
+- [[台山话音系]]
 ## 索引 / Index
 
 现时收录条目：9 条。

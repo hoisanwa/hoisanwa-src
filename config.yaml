@@ -62,7 +62,7 @@ toggles:
   compile_html: true
   strict_line_breaks: false
   force_filename_to_lowercase: true
-  slugify_html_links: true
+  slugify_html_links: false
   process_all: false
   verbose_printout: false
   debug_filetree_keys: false
