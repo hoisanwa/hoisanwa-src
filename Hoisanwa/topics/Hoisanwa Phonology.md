@@ -1,4 +1,6 @@
-# 台山话音系 / Hoisanwa Phonology[^1]
+# 台山话音系 / Hoisanwa Phonology
+
+- IPA / 台拼 / 范例; Adapted from https://www.taishandict.com/TaishaneseSyllableShort.htm
 
 ## 辅音 / Consonants
 
@@ -14,7 +16,7 @@
 |        | 浊音   | v / v / [[坏]]  |                                   |     |                |                 |                |
 | 流音   |        |                 | l / l / [[礼]]                    |     | j / y / [[窳]] | w / w / [[话]]  |                |
 
-[^1]: IPA / 台拼 / 范例; Adapted from https://www.taishandict.com/TaishaneseSyllableShort.htm
+
 
 ## 元音 / Vowels
 
@@ -33,20 +35,8 @@
 
 ## 音调 / Tones
 
-| 声调 | 高平 | 中平 | 低平 | 中降 | 低降 | 高促 | 中促 | 中降促 | 低降促 |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ------ | ------ |
-| 调值 | 55   | 33   | 22   | 32   | 21   | 55   | 33   | 31     | 21     |
-| 举例 | [[口]]   | [[偷]]   | [[头]]   | [[后]]   | [[厚]]   | [[北]]   | [[百]]   | [[白]]     | [[伯]]     |
-| 举例 | [[椅]]   | [[衣]]   | [[移]]   | [[易]]   | [[以]]   |      |      |        |        |
+| 声调 | 高平   | 中平   | 低平   | 中降   | 低降   | 高促   | 中促   | 中降促 | 低降促 |
+| ---- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| 调值 | 55     | 33     | 22     | 32     | 21     | 55     | 33     | 31     | 21     |
+| 举例 | [[口]] | [[偷]] | [[头]] | [[后]] | [[厚]] | [[北]] | [[百]] | [[白]] | [[伯]] |
 
-<style>
-th {
-    text-transform: none;
-    border: 0px;
-    padding: 0.3rem;
-    padding-left: 1rem;
-    font-weight: bold;
-    font-style: normal;
-    color: var(--table-header-color);
-}
-</style>
