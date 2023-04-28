@@ -52,8 +52,10 @@ html_template_path_str: ''
 html_custom_inclusions: []
 html_custom_footer_inclusions: []
 navbar_links:
+  - name: Home
+    link: index.html
   - name: Phonology
-    link: topics/phonology.html  
+    link: topics/Hoisanwa Phonology.html  
 file_exports: []
 toggles:
   compile_md: true
