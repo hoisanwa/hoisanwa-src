@@ -1,8 +1,15 @@
 # 首页 / Home
 
+## 专题 / Topics
+
+- [[台山话音系 Hoisanwa Phonology]]
 ## 索引 / Index
 
-现时收录条目：7 条。
+现时收录条目：9 条。
+
+### E
+
+[[𢱕]] 
 
 ### G
 
@@ -20,6 +27,7 @@
 
 [[憡]] 
 
-## 专题 / Topics
+### Y
 
-- [[Hoisanwa Phonology|台山话音系 Hoisanwa Phonology]]
+[[孬]] 
+

@@ -2,9 +2,16 @@ from glob import glob
 
 inits = [chr(i) for i in range(ord('A'), ord('Z') + 1)]
 entries = sorted(glob("./Hoisanwa/words/*/*.md"))
+topics = sorted(glob("./Hoisanwa/topics/*.md"))
 inits_exist = [init for init in inits if any("/"+init+"/" in entry for entry in entries)]
+
 with open("Hoisanwa/Home.md", 'w') as f:
     f.write("# 首页 / Home\n\n")
+
+    f.write("## 专题 / Topics\n\n")
+    for topic in topics:
+        f.write(f"- [[{topic.split('/')[-1].split('.')[0]}]]\n")
+
     f.write("## 索引 / Index\n\n")
     f.write(f"现时收录条目：{len(entries)} 条。\n\n")
     for init in inits:
@@ -19,5 +26,4 @@ with open("Hoisanwa/Home.md", 'w') as f:
                         s += f"[[{entry.split('/')[-1].split('.')[0]}]] "
             f.write(s + "\n\n")
     
-    f.write("## 专题 / Topics\n\n")
-    f.write("- [[Hoisanwa Phonology|台山话音系 Hoisanwa Phonology]]")
+    
