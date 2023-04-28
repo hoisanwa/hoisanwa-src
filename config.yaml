@@ -51,7 +51,9 @@ html_url_prefix: ''
 html_template_path_str: ''
 html_custom_inclusions: []
 html_custom_footer_inclusions: []
-navbar_links: []
+navbar_links:
+  - name: Phonology
+    link: topics/phonology.html  
 file_exports: []
 toggles:
   compile_md: true
@@ -223,5 +225,5 @@ toggles:
             - .toc
     post_processing: []
 md_folder_path_str: ./output/md
-md_entrypoint_path_str: ./output/md/Home.md
+md_entrypoint_path_str: ./output/md/index.md
 html_output_folder_path_str: ../hoisanwa.github.io/html/
