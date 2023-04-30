@@ -55,7 +55,9 @@ navbar_links:
   - name: Home
     link: index.html
   - name: Phonology
-    link: topics/Hoisanwa Phonology.html  
+    link: topics/台山话音系.html
+  - name: Corpus
+    link: corpus/台山话文库.html
 file_exports: []
 toggles:
   compile_md: true
