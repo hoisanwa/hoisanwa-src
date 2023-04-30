@@ -3,7 +3,7 @@
 <style>
 h6 {
     position: relative;
-    left: -1.5%;
+    left: 0%;
     top: 30px;
     line-height: 0px;
     margin-top: -20px;
@@ -19,6 +19,10 @@ sup {
   vertical-align: baseline;
   position: relative;
   top: -0.4em;
+}
+
+p {
+  padding-left: 20px;
 }
 
 </style>

@@ -16,6 +16,7 @@ cd ${REPO_DIR}
 git rm -rf .
 cp -r ./html/* .
 rm -rf ./html
+cp ../logo/favicon.ico .
 git add .
 git commit -m "update"
 git push -f origin main
