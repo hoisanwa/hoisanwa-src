@@ -1,6 +1,7 @@
 from glob import glob
 
-inits = [chr(i) for i in range(ord('A'), ord('Z') + 1)]
+inits = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J","K", "L", "LH", "M",
+         "N", "NG", "O", "P", "Q", "R", "S", "T", "U", "V", "W","X", "Y", "Z"]
 entries = sorted(glob("./Hoisanwa/words/*/*.md"))
 topics = sorted(glob("./Hoisanwa/topics/*.md"))
 
