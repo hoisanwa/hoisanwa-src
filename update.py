@@ -13,18 +13,21 @@ with open("Hoisanwa/Home.md", 'w') as f:
     for topic in topics:
         f.write(f"- [[{topic.split('/')[-1].split('.')[0]}]]\n")
     f.write("- [[台山话文库]]")
-    f.write("\n")
+    f.write("\n\n")
     
     f.write("## 索引 / Index\n\n")
     f.write(f"现时收录条目：{len(entries)} 条。\n\n")
     for init in inits:
+        i = 0
         if init in inits_exist:
             f.write(f"### {init}\n\n")
             s = ""
-            for i, entry in enumerate(entries):
+            i = 0
+            for entry in entries:
                 if "/"+init+"/" in entry:
                     if i!=0 and i % 10 == 0:
                         s += f"\n[[{entry.split('/')[-1].split('.')[0]}]] "
                     else:
                         s += f"[[{entry.split('/')[-1].split('.')[0]}]] "
+                    i += 1 
             f.write(s + "\n\n")
