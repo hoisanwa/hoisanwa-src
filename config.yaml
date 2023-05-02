@@ -6,6 +6,7 @@ exclude_glob:
   - /.trash
   - /.DS_Store
   - /.git
+  - /templates
 max_note_depth: -1
 copy_vault_to_tempdir: true
 copy_vault_to_tempdir_method: default
